@@ -23,11 +23,6 @@ Helper Functions:
 Usage:
     Run this module as a script to simulate the shopping trip.
 """
-import sys
-import os
-# Add the parent directory of app to the sys.path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from processing.read_json import open_json_file
 from processing.shop import Shop
 from processing.customer import Customer
